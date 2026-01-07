@@ -1,0 +1,115 @@
+body {
+	background-color: #1f1f1f;
+	color: white;
+	font-family: "Geneva",sans-serif;
+	
+	
+}
+
+h1 {
+	text-shadow: 2px 0 black,-2px 0 black,0 2px black,0 -2px black,
+				 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+	background-color: #1DB954;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 0px;
+	border: solid;
+	border-color: white;
+}
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 2px 0 #1DB954,-2px 0 #1DB954,0 2px #1DB954,0 -2px #1DB954,
+				 1px 1px #1DB954, -1px -1px #1DB954, 1px -1px #1DB954, -1px 1px #1DB954;
+	padding-top: 15px;
+	margin: 0px;
+
+}
+
+h3 {
+	color: #1DB954;
+	font-size: 50px;
+	text-shadow: 0.5px 0px #f3f3f3,
+				 -0.5px 0px #f3f3f3,
+				 0px 0.5px #f3f3f3,
+				 0px -0.5px #f3f3f3;
+	margin-top: 120px;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+h4 {
+	color: #1DB954;
+	font-size: 35px;
+	text-shadow: 0.5px 0px #f3f3f3,
+				 -0.5px 0px #f3f3f3,
+				 0px 0.5px #f3f3f3,
+				 0px -0.5px #f3f3f3;
+	margin: 0px;
+}
+
+h5 {
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+	margin-top:25px;
+}
+
+p {
+	font-size: 25px;
+	margin: 0px;
+	padding-bottom: 25px;
+
+}
+
+#table1 {
+	display: inline-table;
+	
+}
+
+#table2 {
+	display: inline-table;
+	
+
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+input[type="text"] {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	font-family: 'geneva', sans-serif;
+	font-size: 25px;
+}
+input[type="submit"] {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	font-family: 'geneva', sans-serif;
+	font-size: 20px;
+	width: 200px;
+
+
+}
+
+datalist {
+	position: absolute;
+}

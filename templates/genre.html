@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<h2>{{name.upper()}}</h2>
+
+<h4>Similar Artists:</h4> <p>{{', '.join(top_similar_artists)}}</p>
+<h4>Similar Lesser Known Artists:</h4> <p>{{', '.join(lesser_similar_artists)}}</p>
+
+
+{% endblock %}

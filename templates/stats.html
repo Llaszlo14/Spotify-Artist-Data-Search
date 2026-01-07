@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<h2>General Stats</h2>
+
+<h5>Top 100 Artists</h5>
+
+<div id="tables">
+<table>{{table1|safe}}</table>
+<table>{{table2|safe}}</table>
+</div>
+
+
+<img src='static/plt1.png'>
+<img src='static/plt2.png'>
+
+{% endblock %}

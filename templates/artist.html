@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+<h2>{{name.upper()}}</h2>
+
+<h4>Followers:</h4> <p> {{followers}}</p>
+<h4>Peak Followers:</h4> <p>{{peak_followers}}</p>
+<h4>Popularity Rating:</h4> <p>{{popularity}}</p>
+<h4>Overall Ranking:</h4> <p>{{ranking}}</p>
+<h4>Genres:</h4> <p>{{', '.join(genres)}}</p>
+<h4>Chart Hits:</h4> <p>{{', '.join(chart_hits)}}</p>
+<h4>Similar Artists (By Genre):</h4> <p>{{', '.join(top_similar_artists)}}</p>
+<h4>Similar Lesser Known Artists:</h4> <p>{{', '.join(lesser_similar_artists)}}</p>
+
+{% endblock %}

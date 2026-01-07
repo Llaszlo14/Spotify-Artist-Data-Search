@@ -1,0 +1,9 @@
+- Where I found nodes.csv: https://www.kaggle.com/datasets/jfreyberg/spotify-artist-feature-collaboration-network?select=nodes.csv
+- Where I found listeners.csv: https://www.kaggle.com/datasets/meeratif/spotify-top-artists-by-monthly-listeners
+-Referenced for pandas dataframe usage: https://pandas.pydata.org/docs/reference/frame.html
+- Referenced for matplotlib.pyplot usage: https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html
+- Used for general html formatting: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+- Used for css formatting: https://developer.mozilla.org/en-US/docs/Web/CSS
+- I used this to understand how to create a searchbar suggestions list: https://stackoverflow.com/questions/42111844/html5-datalist-auto-suggest-shows-the-list-that-starts-with-the-search-keyword
+- Used ChatGPT-plus to understand how to re-encode incorrect name values (ChatGPT-plus 29 May 2025) with prompt 'fixing wrongly encoded special characters in pandas dataframe'
+- Used ChatGPT-plus to understand how to gain index labels for a specific row in a dataframe (ChatGPT-plus 31 May 2025) with prompt 'returning index number for a row in a pandas dataframe'

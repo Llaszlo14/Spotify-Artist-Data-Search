@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+
+<h3>Please enter a Spotify artist or a music genre </h3>
+      <form method="GET">
+        <input type="text" list="search-suggestions" name="search" id="search">
+        <datalist id="search-suggestions">
+          {% for suggestion in suggestions %}
+            <option value="{{suggestion}}">
+          {% endfor %}
+        </datalist>
+        <input type="submit" value="Search by Artist" formaction="/artist">
+        <input type="submit" value="Search by Genre" formaction="/genre">
+        <input type="submit" value="General Stats" formaction="/stats"
+        style="background-color: darkgreen; 
+               color: white; 
+               font-size: 25px; 
+               width: 240px;
+               margin-top: 20px;">
+      </form>
+      
+      
+    
+
+{% endblock %}
+
+
